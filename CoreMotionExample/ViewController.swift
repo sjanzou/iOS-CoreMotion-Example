@@ -26,17 +26,22 @@ class ViewController: UIViewController {
 	}
 
 	@objc func update() {
-		if let accelerometerData = motionManager.accelerometerData {
-			print(accelerometerData)
-		}
-		if let gyroData = motionManager.gyroData {
-			print(gyroData)
-		}
-		if let magnetometerData = motionManager.magnetometerData {
-			print(magnetometerData)
-		}
+//		if let accelerometerData = motionManager.accelerometerData {
+//			print(accelerometerData)
+//		}
+//		if let gyroData = motionManager.gyroData {
+//			print(gyroData)
+//		}
+//		if let magnetometerData = motionManager.magnetometerData {
+//			print(magnetometerData)
+//		}
 		if let deviceMotion = motionManager.deviceMotion {
-			print(deviceMotion)
+			//print(deviceMotion)
+            let quat = deviceMotion.attitude.quaternion
+            let yaw = asin(2*(quat.x*quat.z - quat.w*quat.y)) * 180 / 3.14
+            print(yaw)
+            print(deviceMotion.attitude)
+            
 		}
 	}
 	

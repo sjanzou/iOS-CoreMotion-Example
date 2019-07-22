@@ -128,6 +128,7 @@
 				TargetAttributes = {
 					6D4BABDB1C5130A60042ADA0 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = Q5E82VZ447;
 						LastSwiftMigration = 1000;
 					};
 				};
@@ -137,6 +138,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -303,9 +305,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q5E82VZ447;
 				INFOPLIST_FILE = CoreMotionExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = maximbilan.CoreMotionExample;
+				PRODUCT_BUNDLE_IDENTIFIER = jc.coremotionexample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -315,9 +318,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q5E82VZ447;
 				INFOPLIST_FILE = CoreMotionExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = maximbilan.CoreMotionExample;
+				PRODUCT_BUNDLE_IDENTIFIER = jc.coremotionexample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
